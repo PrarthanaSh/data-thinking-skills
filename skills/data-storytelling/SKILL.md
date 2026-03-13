@@ -40,12 +40,12 @@ Match the metric type to the right chart:
 
 | Metric Type | Chart | Example |
 |-------------|-------|---------|
-| Counts | Bar chart | Monthly patient encounters |
-| Rates over time | Line chart | 30-day readmission rate by quarter |
-| Part-of-whole | Stacked bar | Claim denials by category |
+| Counts | Bar chart | Monthly active users |
+| Rates over time | Line chart | Month-over-month change in risk percentage |
+| Part-of-whole | Stacked bar | File saves by file type |
 | Distribution | Histogram or box plot | Length of stay distribution |
 | Correlation | Scatter plot | Cost vs complexity score |
-| Ranking | Horizontal bar | Top 10 diagnoses by volume |
+| Ranking | Horizontal bar | Top 10 user_categories by spend |
 
 NEVER use pie charts. Stacked bar does everything a pie chart does, with readable labels.
 
@@ -65,4 +65,4 @@ ALWAYS label data directly on the chart. A legend across the room is useless.
 
 ## Cross-References
 
-For stakeholder alignment process (getting agreement on what to build), see `stakeholder-alignment`. For metric definitions (what exactly does this number mean?), see `metrics-definition`. This skill covers how to present the results.
+For metric definitions (what exactly does this number mean?), see `metrics-definition`. This skill covers how to present the results.
